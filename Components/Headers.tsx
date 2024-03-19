@@ -69,7 +69,13 @@ const Headers = () => {
                 </div>
                 <img src="cart.svg" alt="" />
               </Link>
-              <img src="user.svg" alt="" className="hidden 2xl:inline-block" />
+              <Link href="https://sage-druid-f08a36.netlify.app/">
+                <img
+                  src="user.svg"
+                  alt=""
+                  className="hidden 2xl:inline-block"
+                />
+              </Link>
             </div>
             <button
               onClick={handleClick}
@@ -92,9 +98,10 @@ const Headers = () => {
               <Link href="/">Home</Link>
               <Link href="/about">About</Link>
               <Link href="/products">All product</Link>
-              <Link href="/login">Login</Link>
+              <Link href="https://sage-druid-f08a36.netlify.app/">Login</Link>
             </div>
           </div>
+
 
           {/* <NavbarCollapse className="text-[18px] 2xl:hidden">
             <NavbarLink href="/" active>
